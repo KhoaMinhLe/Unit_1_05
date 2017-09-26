@@ -1,0 +1,107 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{102, 22}, {321, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "enter_diameter_label",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "27E5180A-0DCC-45FF-B6BE-D51646B3C37D",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Enter the diameter of pizza (inches)",
+          "font_size" : 20,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{159, 93}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "diameter_textbox",
+          "placeholder" : "Enter Diameter Here",
+          "frame" : "{{170, 254}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "E4641FFF-38AA-4915-83D5-59DE1151D533",
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{171, 153}, {178, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Calculate Price",
+          "uuid" : "B07B03CF-2960-4133-BCF7-266495726FA0",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 20
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{171, 213}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "price_label",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "533D41DE-0782-4559-86A6-7A0735A2EF83",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Price:",
+          "font_size" : 20,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{228, 213}, {321, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "price_of_pizza_label",
+          "frame" : "{{188, 129}, {150, 32}}",
+          "uuid" : "B502B4EC-172F-4509-8843-8F12F9C89C2D",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 20,
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {526, 289}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
